@@ -1,20 +1,13 @@
 export default function Alerts() {
   return (
-    <>
-      <div className="card">
-        <h2>Alerts</h2>
-        <p>Notifications about high exposure events or important health updates.</p>
+    <div className="container">
+      <div className="card alert">⚠ High pollution expected during evening hours</div>
+      <div className="card alert" style={{ borderColor: '#10b981', backgroundColor: '#d1fae5' }}>
+        ✔ Prefer indoor activities today
       </div>
-
-      <div className="card">
-        <h2>Recent Alerts</h2>
-        <p>Check your most recent notifications.</p>
+      <div className="card alert" style={{ borderColor: '#3b82f6', backgroundColor: '#dbeafe' }}>
+        ✔ Stay hydrated and monitor symptoms
       </div>
-
-      <div className="card">
-        <h2>Settings</h2>
-        <p>Manage alert preferences and notification frequency.</p>
-      </div>
-    </>
+    </div>
   )
 }

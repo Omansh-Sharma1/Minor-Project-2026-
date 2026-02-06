@@ -1,23 +1,14 @@
 export default function Home() {
   return (
-    <>
+    <div className="container">
       <div className="card">
-        <h2>Welcome to PPEIS</h2>
+        <h1>PPEIS: Personal Pollution Exposure Intelligence System</h1>
         <p>
-          Personal Public Exposure & Insights System — track activities, exposure levels, and health insights all in one place.
+          AQI gives area-level pollution info but not individual exposure.
+          PPEIS combines environmental data and personal activity to give
+          exposure scores and health advice.
         </p>
-        <button>Get Started</button>
       </div>
-
-      <div className="card">
-        <h2>Quick Stats</h2>
-        <p>Monitor your daily activity and exposure trends.</p>
-      </div>
-
-      <div className="card">
-        <h2>Alerts</h2>
-        <p>Receive timely notifications about potential risks.</p>
-      </div>
-    </>
+    </div>
   )
 }

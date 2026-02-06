@@ -1,20 +1,18 @@
 export default function HealthInsights() {
   return (
-    <>
+    <div className="container">
       <div className="card">
-        <h2>Health Insights</h2>
-        <p>Analyze how your daily activities and exposures affect your health.</p>
+        <h2>Health Impact & AI Insights</h2>
+        <p>
+          Mild respiratory discomfort and fatigue possible based on exposure.
+        </p>
       </div>
 
       <div className="card">
-        <h2>Trends</h2>
-        <p>See trends in your activity and exposure over time.</p>
+        <h3>AI-Generated Advice (Prototype)</h3>
+        <p>Reduce outdoor activity during peak pollution hours and use masks.</p>
+        <p className="notice">* Placeholder for generative AI.</p>
       </div>
-
-      <div className="card">
-        <h2>Recommendations</h2>
-        <p>Get personalized tips to reduce exposure and improve wellbeing.</p>
-      </div>
-    </>
+    </div>
   )
 }
